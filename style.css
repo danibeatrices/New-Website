@@ -26,7 +26,6 @@ header {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: -40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .centerbox{
@@ -170,4 +169,15 @@ nav {
     text-align: center;
     margin: auto;
     margin-block-end: -8%;
+  }
+
+  footer {
+    font-size: 12px;
+    color: rgb(209, 209, 209);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin: auto;
+    margin-top: 280px;
   }
