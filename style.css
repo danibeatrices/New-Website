@@ -109,9 +109,29 @@ nav {
     padding: 25px;
   }
 
+    #logo:hover {
+    width: 70px;
+    height: 80px;
+    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(250deg);
+    text-align: center;
+    margin-left: 400px;
+    margin-top: -1000px;
+    padding: 25px;
+  }
+
   #logo1 {
     width: 150px;
     height: 170px;
+    text-align: center;
+    margin: auto;
+    margin-inline-start: 23%;
+    margin-block-end: -8%;
+  }
+
+  #logo1:hover {
+    width: 150px;
+    height: 170px;
+    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(250deg);
     text-align: center;
     margin: auto;
     margin-inline-start: 23%;
@@ -126,9 +146,27 @@ nav {
     margin-block-end: -8%;
   }
 
+  #logo2:hover {
+    width: 150px;
+    height: 170px;
+    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(250deg);
+    text-align: center;
+    margin: auto;
+    margin-block-end: -8%;
+  }
+
   #logo3 {
     width: 150px;
     height: 170px;
+    text-align: center;
+    margin: auto;
+    margin-block-end: -8%;
+  }
+
+  #logo3:hover {
+    width: 150px;
+    height: 170px;
+    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(250deg);
     text-align: center;
     margin: auto;
     margin-block-end: -8%;
