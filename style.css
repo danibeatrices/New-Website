@@ -255,7 +255,6 @@ nav {
       #logo {
         width: 60px;
         height: 80px;
-        text-align: center;
         margin-left: 400px;
         margin-top: -1000px;
         padding: 25px;
@@ -265,9 +264,7 @@ nav {
       #logo1 {
         width: 140px;
         height: 160px;
-        text-align: center;
         margin: auto;
- 
         margin-block-end: -8%;
         inline-size: min-content;
       }
