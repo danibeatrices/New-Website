@@ -134,14 +134,7 @@ nav {
   }
 
   #logo1:hover {
-    width: 150px;
-    height: 170px;
     filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(250deg);
-    text-align: center;
-    margin: auto;
-    margin-inline-start: 23%;
-    margin-block-end: -8%;
-    inline-size: min-content;
   }
 
   #logo2 {
@@ -154,13 +147,7 @@ nav {
   }
 
   #logo2:hover {
-    width: 150px;
-    height: 170px;
     filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(250deg);
-    text-align: center;
-    margin: auto;
-    margin-block-end: -8%;
-    inline-size: min-content;
   }
 
   #logo3 {
@@ -173,13 +160,7 @@ nav {
   }
 
   #logo3:hover {
-    width: 150px;
-    height: 170px;
     filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(250deg);
-    text-align: center;
-    margin: auto;
-    margin-block-end: -8%;
-    inline-size: min-content;
   }
 
   footer {
@@ -194,7 +175,7 @@ nav {
   }
 
   /* laptop style */
-  @media (max-width: 1080px) {
+  @media (max-width: 1920px) {
     header {
         text-align: center;
         text-transform: uppercase;
@@ -218,7 +199,7 @@ nav {
     .box1 {
         width: 500px;
         height: 700px;
-        margin-inline-start: 28%;
+        margin-inline-start: 8%;
         margin-block-start: 4%;
         background-attachment: fixed; 
     }
@@ -227,7 +208,7 @@ nav {
         width: 500px;
         height: 700px;
         margin-inline-start: 52%;
-        margin-block-start: -21%;
+        margin-block-start: -41%;
         background-attachment: fixed; 
     }
     
@@ -260,17 +241,19 @@ nav {
       }
       
       .asset1 {
-        margin: -50px;
+        margin: 10px;
+        margin-left: 550px;
+        margin-bottom: -120px;
       }
     
       .asset2{
-        margin-left: 170px;
-        margin-top: -180px;
+        margin-left: 140px;
+        margin-top: -128px;
         
       }
     
       #logo {
-        width: 70px;
+        width: 60px;
         height: 80px;
         text-align: center;
         margin-left: 400px;
@@ -280,18 +263,18 @@ nav {
       }
     
       #logo1 {
-        width: 150px;
-        height: 170px;
+        width: 140px;
+        height: 160px;
         text-align: center;
         margin: auto;
-        margin-inline-start: 23%;
+ 
         margin-block-end: -8%;
         inline-size: min-content;
       }
     
       #logo2 {
-        width: 150px;
-        height: 170px;
+        width: 140px;
+        height: 160px;
         text-align: center;
         margin: auto;
         margin-block-end: -8%;
@@ -299,8 +282,8 @@ nav {
       }
     
       #logo3 {
-        width: 150px;
-        height: 170px;
+        width: 140px;
+        height: 160px;
         text-align: center;
         margin: auto;
         margin-block-end: -8%;
