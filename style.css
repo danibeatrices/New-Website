@@ -127,6 +127,7 @@ p.textbox {
   .asset-data{
     width: 70;
     height: 150px;
+    margin: 0;
   }
 
   .asset-data:hover {
@@ -137,25 +138,27 @@ p.textbox {
     position: relative;
     left: 36.65rem;
     top: -36rem;
+    margin: 0;
   }
 
   .asset2 {
     position: absolute;
     left: 10rem;
     top: 0;
+    margin: 0;
   }
 
   .asset3 {
     position: absolute;
     left: 10rem;
     top: 0;
+    margin: 0;
   }
 
   .asset-box {
     position: relative;
     top: 590px;
     right: 570px;
-    margin: 0;
   }
 
   footer {
