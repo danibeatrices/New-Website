@@ -141,11 +141,21 @@ p.textbox {
     margin: 0;
   }
 
+  #about-page {
+    top: -680px;
+    left: 66rem;
+  }
+
   .asset2 {
     position: absolute;
     left: 10rem;
     top: 0;
     margin: 0;
+  }
+
+  #about-page-2 {
+    top: 200px;
+    left: 0px;
   }
 
   .asset3 {
@@ -155,10 +165,21 @@ p.textbox {
     margin: 0;
   }
 
+  #about-page-3 {
+    top: 200px;
+    left: 0px;
+  }
+
   .asset-box {
     position: relative;
     top: 590px;
     right: 570px;
+  }
+
+  .asset-box-about {
+    position: absolute;
+    left: -1250px;
+    top: 840px;
   }
 
   footer {
