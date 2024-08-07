@@ -112,7 +112,7 @@ nav {
     padding: 10px;
     top: 20rem;
   }
-
+  
   @media (max-width: 2560px)
   {
 
@@ -156,6 +156,35 @@ nav {
     
   }
 
+@media (max-width: 1440px)
+{ 
+
+  .logo {
+    left: 12.0rem;
+  }
+
+  .shrink{
+    -webkit-transform:scale(0.8);
+    -moz-transform:scale(0.8);
+    -ms-transform:scale(0.8);
+    transform:scale(0.8);
+    }
+
+  .box1 {
+    left: 8rem;
+    top: -2rem;
+  }
+
+  .about-box {
+    left: 14%;
+  }
+
+  footer {
+    top: 3rem;
+  }
+  
+}
+
 @media (max-width: 1680px)
 { 
 
@@ -171,7 +200,7 @@ nav {
     }
 
   .box1 {
-    left: 10rem;
+    left: 17rem;
     top: -2rem;
   }
 
@@ -215,35 +244,6 @@ nav {
   
 }
 
-@media (max-width: 1440px)
-{ 
-
-  .logo {
-    left: 10.0rem;
-  }
-
-  .shrink{
-    -webkit-transform:scale(0.8);
-    -moz-transform:scale(0.8);
-    -ms-transform:scale(0.8);
-    transform:scale(0.8);
-    }
-
-  .box1 {
-    left: 11rem;
-    top: -2rem;
-  }
-
-  .about-box {
-    left: 16%;
-  }
-
-  footer {
-    top: 12rem;
-  }
-  
-}
-
 @media (max-width: 1280px)
 { 
 
@@ -259,7 +259,7 @@ nav {
     }
 
   .box1 {
-    margin-top: -87px;
+    margin-top: -78px;
     left: 7rem;
     top: 3rem;
   }
