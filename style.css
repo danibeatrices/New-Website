@@ -2,7 +2,6 @@ body {
     background-image: linear-gradient(to bottom right, rgb(0, 0, 0), 
     rgb(110, 108, 108));
     background-attachment: fixed; 
-    position: relative;
 }
 
 main {
@@ -32,10 +31,9 @@ header {
 }
 
 nav {
-    position: relative;
     background-image: linear-gradient(to bottom left, rgb(0, 0, 0),
      rgb(88, 88, 88));
-    background-attachment: fixed; /*edit*/
+    background-attachment: fixed;
     color: rgb(221, 221, 221);
     text-align: center;
     padding: 5px;
@@ -78,15 +76,7 @@ nav {
     
 }
 
-#home {
-    
-    font-size: 25px;
-    padding: 10px;
-    padding-top: 20px;
-    word-spacing: 70px;
-}
-
-  #logo {
+  .logo {
     position: relative;
     width: 70px;
     height: 80px;
@@ -102,5 +92,5 @@ nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px;
-    top: 66rem;
+    top: 20rem;
   }
