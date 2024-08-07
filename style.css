@@ -107,17 +107,6 @@ p.textbox {
     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
-  footer {
-    position: relative;
-    font-size: 12px;
-    color: rgb(209, 209, 209);
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
-    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 10px;
-    top: 20rem;
-  }
-
   .contact {
     font-size: 40px;
     padding: 20px;
@@ -135,6 +124,51 @@ p.textbox {
     text-align: center;
   }
 
+  .asset-data{
+    width: 70;
+    height: 150px;
+  }
+
+  .asset-data:hover {
+    filter: sepia(90%) saturate(300%) brightness(70%) hue-rotate(250deg);
+  }
+
+  .asset1 {
+    position: relative;
+    left: 36.65rem;
+    top: -36rem;
+  }
+
+  .asset2 {
+    position: absolute;
+    left: 10rem;
+    top: 0;
+  }
+
+  .asset3 {
+    position: absolute;
+    left: 10rem;
+    top: 0;
+  }
+
+  .asset-box {
+    position: relative;
+    top: 590px;
+    right: 570px;
+    margin: 0;
+  }
+
+  footer {
+    position: relative;
+    font-size: 12px;
+    color: rgb(209, 209, 209);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    top: 20rem;
+  }
+
   @media (max-width: 2048px)
   { 
     .box1 {
@@ -149,6 +183,7 @@ p.textbox {
       top: 13rem;
     } 
   }
+  
 
   @media (max-width: 1920px)
   { 
