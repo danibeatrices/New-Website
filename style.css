@@ -142,7 +142,7 @@ p.textbox {
   }
 
   #about-page {
-    top: -680px;
+    top: -660px;
     left: 66rem;
   }
 
@@ -178,8 +178,8 @@ p.textbox {
 
   .asset-box-about {
     position: absolute;
-    left: -1250px;
-    top: 840px;
+    left: -1245px;
+    top: 835px;
   }
 
   footer {
