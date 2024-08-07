@@ -137,150 +137,120 @@ p.textbox {
 
   @media (max-width: 2048px)
   { 
-  
     .box1 {
       margin-top: 1.5rem;
       left: 29rem;
       top: 3rem;
     }
-  
     .about-box {
       left: 25%;
     }
-  
     footer {
       top: 13rem;
-    }
-    
+    } 
   }
 
   @media (max-width: 1920px)
   { 
-  
     .box1 {
       margin-top: 1.5rem;
       left: 25rem;
       top: 3rem;
     }
-  
     .about-box {
       left: 23%;
     }
-  
     footer {
       top: 13rem;
     }
-    
   }
 
 @media (max-width: 1440px)
 { 
-
   .logo {
     left: 12.0rem;
   }
-
   .shrink{
     -webkit-transform:scale(0.8);
     -moz-transform:scale(0.8);
     -ms-transform:scale(0.8);
     transform:scale(0.8);
     }
-
   .box1 {
     left: 8rem;
     top: -2rem;
   }
-
   .about-box {
     left: 14%;
   }
-
   footer {
     top: 3rem;
   }
-  
 }
 
 @media (max-width: 1680px)
 { 
-
   .logo {
     left: 10rem;
   }
-
   .shrink{
     -webkit-transform:scale(0.8);
     -moz-transform:scale(0.8);
     -ms-transform:scale(0.8);
     transform:scale(0.8);
     }
-
   .box1 {
     left: 17rem;
     top: -2rem;
   }
-
   .about-box {
     left: 16%;
   }
-
   footer {
     top: 3rem;
-  }
-  
+  }  
 }
 
 @media (max-width: 1600px)
 { 
-
   .logo {
     left: 10rem;
   }
-
   .shrink{
     -webkit-transform:scale(0.8);
     -moz-transform:scale(0.8);
     -ms-transform:scale(0.8);
     transform:scale(0.8);
     }
-
   .box1 {
     margin-bottom: -10rem;
     left: 16rem;
     top: -2rem;
   }
-
   .about-box {
     left: 17%;
   }
-
   footer {
     top: 3rem;
-  }
-  
+  }  
 }
 
 @media (max-width: 1280px)
 { 
-
   .logo {
     left: 8.5rem;
   }
-
   .shrink{
     -webkit-transform:scale(0.8);
     -moz-transform:scale(0.8);
     -ms-transform:scale(0.8);
     transform:scale(0.7);
     }
-
   .box1 {
     margin-top: -78px;
     left: 7rem;
     top: 3rem;
   }
-
   .about-box {
     left: 9%;
     -webkit-transform:scale(0.8);
@@ -288,43 +258,35 @@ p.textbox {
     -ms-transform:scale(0.8);
     transform:scale(0.7);
   }
-
   footer {
     top: 2rem;
-  }
-  
+  }  
 }
 
 @media (max-width: 1170px)
 { 
-
   nav h2 {
     font-size: 15px;
     word-spacing: 20px;
   }
-
   .logo {
     left: 8.5rem;
   }
-
   .shrink{
     -webkit-transform:scale(0.8);
     -moz-transform:scale(0.8);
     -ms-transform:scale(0.8);
     transform:scale(0.7);
     }
-
   .box1 {
     margin-top: -110px;
     left: -3rem;
     top: 3rem;
   }
-
   .box2 {
     left: 0px;
     top: 46rem;
   }
-
   .about-box {
     left: 9%;
     -webkit-transform:scale(0.8);
@@ -332,9 +294,7 @@ p.textbox {
     -ms-transform:scale(0.8);
     transform:scale(0.7);
   }
-
   footer {
     top: 2rem;
-  }
-  
+  } 
 }
