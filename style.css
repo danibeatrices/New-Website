@@ -1,20 +1,18 @@
-html {
+body {
     background-image: linear-gradient(to bottom right, rgb(0, 0, 0), 
     rgb(110, 108, 108));
     background-attachment: fixed; 
+    position: relative;
 }
 
-a:link {
+main {
+  position: relative;
+}
+
+a {
   color: rgb(218, 218, 218);
   background-color: transparent;
   text-decoration: none;
-}
-
-
-a:visited {
-    color: rgb(205, 205, 205);
-    background-color: transparent;
-    text-decoration: none;
 }
 
 a:hover {
@@ -22,45 +20,48 @@ a:hover {
   }
 
 header {
+    position: relative;
     color: rgb(234, 234, 234);
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: -40px;
-}
-
-.centerbox{
-    margin: auto;
-    text-align: center;
+    margin-bottom: -5rem;
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
 }
 
 nav {
+    position: relative;
     background-image: linear-gradient(to bottom left, rgb(0, 0, 0),
      rgb(88, 88, 88));
     background-attachment: fixed; /*edit*/
-    width: auto;
-    height: 70px;
     color: rgb(221, 221, 221);
     text-align: center;
-    margin: auto;
-    margin-bottom: 40px;
+    padding: 5px;
+    h2 {
+      font-family: "Sankofa Display", sans-serif;
+      font-size: 25px;
+      word-spacing: 70px;
+    }
 }
 
 .box1 {
+  position: relative;
     width: 500px;
     height: 700px;
     background-color: rgb(29, 29, 29);
-    margin-inline-start: 28%;
-    margin-block-start: 4%;
-    background-attachment: fixed; 
+    left: 50rem;
+    top: 4rem;
 }
 
 .box2 {
+    position: absolute;
     width: 500px;
     height: 700px;
     background-color: rgb(29, 29, 29);
-    margin-inline-start: 52%;
-    margin-block-start: -21%;
-    background-attachment: fixed; 
+    left: 35rem;
+    top: 9rem;
 }
 
 #textbox{
@@ -85,249 +86,21 @@ nav {
     word-spacing: 70px;
 }
 
-.sankofa-display-regular {
-    font-family: "Sankofa Display", sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    font-style: normal;
-  }
-  
-  .asset1 {
-    margin: -50px;
-  }
-
-  .asset2{
-    margin-left: 170px;
-    margin-top: -180px;
-    
-  }
-
   #logo {
+    position: relative;
     width: 70px;
     height: 80px;
-    text-align: center;
-    margin-left: 400px;
-    margin-top: -1000px;
-    padding: 25px;
-    inline-size: min-content;
-  }
-
-    #logo:hover {
-    width: 70px;
-    height: 80px;
-    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(250deg);
-    text-align: center;
-    margin-left: 400px;
-    margin-top: -1000px;
-    padding: 25px;
-    inline-size: min-content;
-  }
-
-  #logo1 {
-    width: 150px;
-    height: 170px;
-    text-align: center;
-    margin: auto;
-    margin-inline-start: 23%;
-    margin-block-end: -8%;
-    inline-size: min-content;
-  }
-
-  #logo1:hover {
-    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(250deg);
-  }
-
-  #logo2 {
-    width: 150px;
-    height: 170px;
-    text-align: center;
-    margin: auto;
-    margin-block-end: -8%;
-    inline-size: min-content;
-  }
-
-  #logo2:hover {
-    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(250deg);
-  }
-
-  #logo3 {
-    width: 150px;
-    height: 170px;
-    text-align: center;
-    margin: auto;
-    margin-block-end: -8%;
-    inline-size: min-content;
-  }
-
-  #logo3:hover {
-    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(250deg);
+    left: 13rem;
+    top: -5.5rem;
   }
 
   footer {
+    position: relative;
     font-size: 12px;
     color: rgb(209, 209, 209);
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px;
-    margin: auto;
-    margin-top: 280px;
+    top: 66rem;
   }
-
-  /* laptop style */
-  @media (max-width: 1920px) {
-    header {
-        text-align: center;
-        text-transform: uppercase;
-        margin-bottom: -40px;
-    }
-    
-    .centerbox{
-        margin: auto;
-        text-align: center;
-    }
-    
-    nav {
-        background-attachment: fixed; /*edit*/
-        width: auto;
-        height: 70px;
-        text-align: center;
-        margin: auto;
-        margin-bottom: 40px;
-    }
-    
-    .box1 {
-        width: 500px;
-        height: 700px;
-        margin-inline-start: 8%;
-        margin-block-start: 4%;
-        background-attachment: fixed; 
-    }
-    
-    .box2 {
-        width: 500px;
-        height: 700px;
-        margin-inline-start: 52%;
-        margin-block-start: -41%;
-        background-attachment: fixed; 
-    }
-    
-    #textbox {
-        font-size: 13px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
-        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-weight: 100;
-        padding: 20px;
-        padding-top: 100px;
-        margin: auto;
-        text-transform: lowercase;
-        text-align: center;
-        
-    }
-    
-    #home {
-        
-        font-size: 25px;
-        padding: 10px;
-        padding-top: 20px;
-        word-spacing: 70px;
-    }
-    
-    .sankofa-display-regular {
-        font-family: "Sankofa Display", sans-serif;
-        font-weight: 400;
-        font-size: 40px;
-        font-style: normal;
-      }
-      
-      .asset1 {
-        margin: 10px;
-        margin-left: 550px;
-        margin-bottom: -120px;
-      }
-    
-      .asset2{
-        margin-left: 140px;
-        margin-top: -128px;
-        
-      }
-    
-      #logo {
-        width: 60px;
-        height: 80px;
-        margin-left: 400px;
-        margin-top: -1000px;
-        padding: 25px;
-        inline-size: min-content;
-      }
-    
-      #logo1 {
-        width: 140px;
-        height: 160px;
-        margin: auto;
-        margin-block-end: -8%;
-        inline-size: min-content;
-      }
-    
-      #logo2 {
-        width: 140px;
-        height: 160px;
-        text-align: center;
-        margin: auto;
-        margin-block-end: -8%;
-        inline-size: min-content;
-      }
-    
-      #logo3 {
-        width: 140px;
-        height: 160px;
-        text-align: center;
-        margin: auto;
-        margin-block-end: -8%;
-        inline-size: min-content;
-      }
-    
-      footer {
-        font-size: 12px;
-        color: rgb(209, 209, 209);
-        text-align: center;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
-        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        padding: 10px;
-        margin: auto;
-        margin-top: 280px;
-      }
-    
-  }
-
-  /* Mobile Styles */
-@media (max-width: 480px) {
-    header {
-        font-size: 1.2em;
-    }
-
-    nav {
-        height: auto;
-        padding: 10px 0;
-    }
-
-    .box {
-        width: 100%;
-        height: auto;
-    }
-
-    #textbox {
-        font-size: 1em;
-        padding: 10px;
-    }
-
-    #home {
-        font-size: 1em;
-        word-spacing: normal;
-    }
-
-    .logo {
-        width: 80px;
-        height: 100px;
-    }
-}
