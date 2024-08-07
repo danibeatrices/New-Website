@@ -277,3 +277,47 @@ nav {
   }
   
 }
+
+@media (max-width: 1170px)
+{ 
+
+  nav h2 {
+    font-size: 15px;
+    word-spacing: 20px;
+  }
+
+  .logo {
+    left: 8.5rem;
+  }
+
+  .shrink{
+    -webkit-transform:scale(0.8);
+    -moz-transform:scale(0.8);
+    -ms-transform:scale(0.8);
+    transform:scale(0.7);
+    }
+
+  .box1 {
+    margin-top: -110px;
+    left: -3rem;
+    top: 3rem;
+  }
+
+  .box2 {
+    left: 0px;
+    top: 46rem;
+  }
+
+  .about-box {
+    left: 9%;
+    -webkit-transform:scale(0.8);
+    -moz-transform:scale(0.8);
+    -ms-transform:scale(0.8);
+    transform:scale(0.7);
+  }
+
+  footer {
+    top: 2rem;
+  }
+  
+}
