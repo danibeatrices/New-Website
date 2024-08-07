@@ -118,7 +118,24 @@ nav h2 {
     padding: 10px;
     top: 20rem;
   }
+
+  .contact {
+    font-size: 40px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(215, 215, 215);
+    text-align: center;
+  }
   
+  .contact-info p {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(215, 215, 215);
+    text-align: center;
+  }
+
   @media (max-width: 2560px)
   {
 
