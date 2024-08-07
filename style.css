@@ -65,7 +65,7 @@ nav h2 {
     top: 9rem;
 }
 
-.textbox{
+p.textbox {
     color: rgb(231, 228, 228);
     font-size: 13px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
@@ -75,8 +75,7 @@ nav h2 {
     padding-top: 100px;
     margin: auto;
     text-transform: lowercase;
-    text-align: center;
-    
+    text-align: center;    
 }
 
   .logo {
