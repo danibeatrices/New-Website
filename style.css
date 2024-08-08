@@ -4,10 +4,14 @@ body {
     background-attachment: fixed; 
 }
 
+div img {
+  clear:both;
+  font-size:0;
+}
+
 main {
   position: relative;
-  width: 100%;
-  height: 100%;
+  margin: 0;
 }
 
 a {
@@ -45,11 +49,6 @@ nav h2 {
   font-family: "Sankofa Display", sans-serif;
   font-size: 25px;
   word-spacing: 70px;
-}
-
-.first-asset-box {
-  position: relative;
-  display: block;
 }
 
 .box1 {
@@ -129,33 +128,53 @@ p.textbox {
     text-align: center;
   }
 
-  .asset-data{
-    width: 70;
+  .asset-data {
+    display: block;
+    width: 150;
     height: 150px;
     margin: 0;
+    padding: 0;
+    
   }
-
+  
   .asset-data:hover {
     filter: sepia(90%) saturate(300%) brightness(70%) hue-rotate(250deg);
   }
 
-  .asset1 {
-    position: relative;
-    left: 36.65rem;
-    top: -36rem;
-    margin: 0;
+  .new-asset-box img:hover{
+    filter: sepia(90%) saturate(300%) brightness(70%) hue-rotate(250deg);
   }
 
-  #about-page {
-    top: -660px;
-    left: 66rem;
+  .asset1 {
+    font-size: 0;
+    display: block;
+    position: relative;
+    left: 37.65rem;
+    top: -36rem;
+    margin: 0;
+    transform: scale(0.9);
   }
 
   .asset2 {
+    font-size: 0;
+    display: block;
+    position: absolute;
+    left: 10rem;
+    top: 0;
+  }
+
+  .asset3 {
+    font-size: 0;
+    display: block;
     position: absolute;
     left: 10rem;
     top: 0;
     margin: 0;
+  }
+
+   #about-page {
+    top: -660px;
+    left: 66rem;
   }
 
   #about-page-2 {
@@ -163,22 +182,25 @@ p.textbox {
     left: 0px;
   }
 
-  .asset3 {
-    position: absolute;
-    left: 10rem;
-    top: 0;
-    margin: 0;
-  }
-
   #about-page-3 {
     top: 200px;
     left: 0px;
   }
 
-  .asset-box {
+  .first-asset-box {
+    font-size: 0;
     position: relative;
-    top: 590px;
-    right: 570px;
+    display: block;
+    left: -16px;
+  }
+
+  .new-asset-box {
+    position: relative;
+    display: block;
+    transform: scale(0.9);
+    word-spacing: 10px;
+    top: 1rem;
+    left: 0.4rem;
   }
 
   .asset-box-about {
@@ -196,6 +218,11 @@ p.textbox {
     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px;
     top: 20rem;
+  }
+
+  #about-footer
+  {
+    top: 3rem;
   }
 
   @media (max-width: 2048px)
@@ -329,12 +356,16 @@ p.textbox {
 
 @media (max-width: 1170px)
 { 
+  header {
+    right: 5rem;
+  }
+
   nav h2 {
     font-size: 15px;
     word-spacing: 20px;
   }
   .logo {
-    left: 8.5rem;
+    left: 9.5rem;
   }
   .shrink{
     -webkit-transform:scale(0.8);
@@ -344,7 +375,7 @@ p.textbox {
     }
   .box1 {
     margin-top: -110px;
-    left: -3rem;
+    left: -3.8rem;
     top: 3rem;
   }
   .box2 {
@@ -360,14 +391,18 @@ p.textbox {
     transform:scale(0.7);
   }
   footer {
-    top: 2rem;
+    top: 46rem;
   } 
   .first-asset-box{
     display: none;
   }
 
-  .asset-box{
-    margin-bottom: -50rem;
-    top: 1500px;
+  .new-asset-box{
+    top: 880px;
+    padding-bottom: 80px;
+  }
+
+  .box2 p {
+    transform: scale(0.94);
   }
 }
