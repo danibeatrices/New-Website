@@ -98,7 +98,7 @@ p.textbox {
     position: relative;
     background-color: rgb(29, 29, 29);
     width: 1000px;
-    height: 1000px;
+    height: 950px;
     left: 30%;
     top: 2rem;
   }
@@ -191,7 +191,7 @@ p.textbox {
     position: relative;
     display: block;
     left: 32px;
-    top: -3.7rem;
+    top: -1rem;
     transform: scale(0.9);
   }
 
@@ -200,7 +200,7 @@ p.textbox {
     display: block;
     transform: scale(0.9);
     word-spacing: 10px;
-    top: 1rem;
+    top: 4rem;
     left: 0.4rem;
   }
 
@@ -218,7 +218,7 @@ p.textbox {
     transform: scale(0.9);
     padding: 0;
     margin: 0;
-    top: -38rem;
+    top: -7.8rem;
     margin-left: 1230px
   }
 
@@ -236,6 +236,10 @@ p.textbox {
   #about-footer
   {
     top: 3rem;
+  }
+
+  #contact-footer {
+    top: 42rem;
   }
 
   @media (max-width: 2048px)
@@ -396,26 +400,37 @@ p.textbox {
     top: 46rem;
   }
   .about-box {
-    left: -10rem;
-    top: -130px;
-    -webkit-transform:scale(0.8);
-    -moz-transform:scale(0.8);
-    -ms-transform:scale(0.8);
-    transform:scale(0.7);
+    position: relative;
+    left: -7rem;
+    width: 600px;
+    height: 650px;
+    top: -6.2rem;
+    margin-bottom: 0px;
+    -webkit-transform:scale(0.4);
+    -moz-transform:scale(0.4);
+    -ms-transform:scale(0.4);
+    transform:scale(0.6);
   }
   footer {
-    top: 46rem;
+    top: 730px;
   } 
+
   .first-asset-box{
     display: none;
   }
 
-  .new-asset-box{
-    top: 880px;
+  .new-asset-box {
+    top: 920px;
     padding-bottom: 80px;
   }
 
-  
+  .asset-box-about {
+    display: none;
+  }
+
+  .asset-box-about-2 {
+    display: none;
+  }
 
   .box2 p {
     transform: scale(0.94);
