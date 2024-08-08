@@ -47,6 +47,11 @@ nav h2 {
   word-spacing: 70px;
 }
 
+.first-asset-box {
+  position: relative;
+  display: block;
+}
+
 .box1 {
     position: relative;
     width: 500px;
@@ -347,7 +352,8 @@ p.textbox {
     top: 46rem;
   }
   .about-box {
-    left: 9%;
+    left: -10rem;
+    top: -130px;
     -webkit-transform:scale(0.8);
     -moz-transform:scale(0.8);
     -ms-transform:scale(0.8);
@@ -356,4 +362,12 @@ p.textbox {
   footer {
     top: 2rem;
   } 
+  .first-asset-box{
+    display: none;
+  }
+
+  .asset-box{
+    margin-bottom: -50rem;
+    top: 1500px;
+  }
 }
