@@ -414,24 +414,19 @@ p.textbox {
   footer {
     top: 730px;
   } 
-
   .first-asset-box{
     display: none;
   }
-
   .new-asset-box {
     top: 920px;
     padding-bottom: 80px;
   }
-
   .asset-box-about {
     display: none;
   }
-
   .asset-box-about-2 {
     display: none;
   }
-
   .box2 p {
     transform: scale(0.94);
   }
